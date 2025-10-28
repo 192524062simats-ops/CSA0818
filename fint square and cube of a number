@@ -1,0 +1,5 @@
+#fint square and cube of a number
+n=int(input('enter number:'))
+sq=n**2
+cu=n**3
+print('the square of the number ',n,'is ',sq,'and cube is :',cu)
