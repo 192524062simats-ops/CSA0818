@@ -1,0 +1,6 @@
+#swap values 
+a=5
+b=3
+print('the values of a and b before swap are:',a,b)
+a,b=b,a
+print('the values af a and b respectively are ',a,b)
