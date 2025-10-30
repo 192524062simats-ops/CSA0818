@@ -1,0 +1,6 @@
+def is_palindrome_string_slicing(num):
+    """Checks if a number is a palindrome using string slicing."""
+    num_str = str(num)
+    return num_str == num_str[::-1]
+print(is_palindrome_string_slicing(121))  
+print(is_palindrome_string_slicing(123))  
