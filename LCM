@@ -1,0 +1,15 @@
+import math
+
+def lcm_using_gcd(num1, num2):
+    """
+    Calculates the LCM of two numbers using their GCD.
+    """
+    if num1 == 0 or num2 == 0:
+        return 0  # LCM of any number and 0 is 0
+    lcm = (num1 * num2) // math.gcd(num1, num2)
+    return lcm
+
+# Example usage:
+number1 = 12
+number2 = 18
+print(f"The LCM of {number1} and {number2} is: {lcm_using_gcd(number1, number2)}")
