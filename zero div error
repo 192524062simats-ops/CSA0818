@@ -8,6 +8,7 @@ def safe_division(numerator, denominator):
         print("Error: Invalid input. Please provide numbers for division.")
     except Exception as e:
         print(f"An unexpected error occurred: {e}")
-safe_division(10, 2)  # Valid division
-safe_division(5, 0)   # Division by zero
-safe_division(10, "a") # Invalid input type
+safe_division(10, 2)  
+safe_division(5, 0)   
+safe_division(10, "a")                                                                                                                         
+                          
